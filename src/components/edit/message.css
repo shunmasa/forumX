@@ -1,0 +1,51 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  border:0;
+}
+.wrapper-message
+{
+  font: 20px/100% tahoma;
+  } 
+
+.clear{clear:both;}
+.wrapper-message{
+  width:600px;
+  height:500px;
+  margin:50px auto;
+}
+
+fieldset{
+  padding:20px;
+  background:#cf3ef3;
+}
+.form_grp{
+  margin-bottom:10px;
+}
+.wrapper-label{
+  width:100%;
+  height:40px;
+  line-height:40px;
+  display:block;
+  margin-bottom:10px;
+  font-size:25px;
+  color:#fff;
+  padding-left:34px; background:url(https://cdn3.iconfinder.com/data/icons/glypho-free/64/pen-checkbox-32.png) no-repeat left center;
+}
+.userCmnt{
+  width:100%;
+  height:200px;
+  padding:10px;
+  
+  border:1px solid #eee;
+  resize:none;
+}
+.button-label{
+  padding:10px 20px;
+
+  
+  background-color:#0917e4;
+  color:#fff;
+  float:right;
+}

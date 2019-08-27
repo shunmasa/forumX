@@ -1,0 +1,51 @@
+.screen {
+  padding: 0;
+  background-color: #adb4b4cc;
+  color: #ffffff;
+  min-height: 350px;
+  width: 100%;
+}
+
+.btn {
+  height: 50px;
+  width: 110px;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 250;
+}
+
+.item-2 {
+  background-color: rgb(173, 247, 104);
+  color: #fff;
+  min-height: 150px;
+  width: 100%;
+}
+
+.item-3 {
+  background-color: rgb(243, 100, 44);
+  color: rgb(255, 255, 255);
+  min-height: 150px;
+  width: 100%;
+}
+
+.item-4 {
+  background-color: rgb(132, 220, 247);
+  color: #fff;
+  min-height: 300px;
+  width: 100%;
+}
+
+.banner1 {
+  max-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+  background-image: url("../../Resources/css/img/mountain.jpg");
+}
+
+.banner2 {
+  max-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+
+  background-image: url("../../Resources/css/img/ocern.jpg");
+}

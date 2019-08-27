@@ -1,0 +1,202 @@
+
+$blockquote-bg: hsl(0,0%,96%);
+
+$comment-font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+$comment-text-color: #555;
+$comment-font-size: 0.85rem;
+$bold: 600;
+$profile-size: 60px;
+
+$username-color: #333;
+$meta-color: #aaa;
+$blockquote-border-color: #ccc;
+$code-bg: hsl(0,0%,96%);
+$code-color: hsl(0,0%,30);
+
+.comment-box {
+  padding: 1.3em 0 0.5em 0;
+  box-sizing: border-box;
+  color: $comment-text-color;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  // // stop 1px border joining to previous
+//   &:not(:first-child) {
+//     margin-top: -1px;
+//   }
+}
+
+.comment-header-img-box {
+  background-image: url(https://38.media.tumblr.com/avatar_72eb13066325_64.png);
+  display: block;
+  float: left;
+  margin-right: 2em;
+  
+
+  width: $profile-size;
+  height: $profile-size;
+  background-size: cover;
+  border-radius: 50%;
+  
+}
+.comment-header-username {
+  display: inline-block;
+  font-weight: $bold;
+  color: $username-color;
+  //  padding-left: 7px; 
+  padding-right: 7px;
+}
+.comment-header-meta {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: $meta-color;
+}
+
+.comment-body-text {
+  font-size: $comment-font-size;
+  font-family: $comment-font-family;
+  line-height: 1.4em;
+  
+  // p, ul, ol, blockquote, img {
+  //   margin: 1em 0;
+  // }
+  
+  // ul li {
+  //   margin: 0.3em 0;
+  // }
+  
+  blockquote {
+    border-left: 10px solid $blockquote-border-color;
+    padding: 1em 0 1em 2em;
+    background-color: $blockquote-bg;
+  }
+  
+  // code {
+  //   background: $code-bg;
+  //   color: $code-color;
+  //   font-family: 'Inconsolata', 'Consolas', 'Monaco', 'Courier New', monospace;
+  //   font-size: 1em;
+  //   line-height: 100%;
+  //   padding: 1px 5px;
+  // }
+  
+}
+
+
+.wrapper-color{
+  background-color:rgb(245, 245, 245);
+  display:flex;
+  flex-grow:1;
+  justify-content: center;
+}
+
+
+
+.card{
+  width:100%;
+  height:300px;
+  margin-top:30px;
+  margin-bottom:20px;
+  
+}
+
+
+.card-header{
+  height:60px;
+  display:flex;
+  margin-top:10px;
+  padding-top:10px;
+  align-items:center;
+  font-size:1.5rem;
+}
+.card-title{
+  display:flex;
+  margin-top:10px;
+  align-items:center;
+  font-size:2rem;
+  
+}
+.card-text{
+  display:flex;
+  align-items:center;
+  font-size:1.5rem;
+}
+.card-expantion{
+  font-size:1.3rem;
+  text-align: right;
+  display:flex;
+   justify-content:flex-end; 
+   margin-right:30px;
+  color:rgb(10, 150, 103);
+
+}
+
+
+.wonderful{
+  font-size:2rem;
+  margin-left:10px;
+  margin-bottom:10px;
+}
+
+.wrapper-root{
+margin-top:20px;
+
+}
+.wrapper-paper{
+  margin: auto;
+  max-width: 100%;
+  height:400px;
+  display:flex;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  color:black;
+}
+.wrapper-title{
+  margin-top:10px;
+  margin-left:10px;
+  font-size: 30px;
+  display:flex;
+  direction:row;
+  justify-content: space-between;
+}
+.wrapper-rating{
+  margin-left:200px;
+}
+ .wrapper-description{
+   font-size: 20px;
+   margin-top:30px;
+   width:650px;
+   height:150px;
+  
+   position: relative;
+ }
+
+ .wrapper-image{
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  border:2px solid #afacaf;
+ }
+ .wrapper-img{
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+ }
+
+ .wrapper-section{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left:10px;
+  display:flex;
+  direction:row;
+  
+  justify-content: space-between;
+ }
+.container-content{
+  background-color:rgb(245, 245, 245);
+}
+
+
